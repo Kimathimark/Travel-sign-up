@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/pexels-mukunda-madhab-bora-1278494-2469234.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    
+   
+}
+
+
+
+.left {
+    
+    height: 92%;
+    width: 30%;
+    background-image: url(../images/pexels-tracehudson-2896668.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.left button{
+    margin-right: 48%;
+    border: none;
+    border-radius: 20px;
+    width: 50%;
+    height: 7%;
+    background-color: orangered;
+}
+.left p{
+    width: 70%;
+}
+
+.right {
+    background-color: beige;
+    height: 92%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right input{
+    width: 75%;
+    height: 8%;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    /* color: azure; */
+}
+.right button{
+    background-color: orangered;
+    color: white;
+    width: 50%;
+    height: 7%;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+.right p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
